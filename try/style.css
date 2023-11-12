@@ -1,0 +1,76 @@
+/* Apply a background color similar to Spotify's background */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the header with Spotify-like green */
+.header {
+    background-color: #1db954;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style for the navigation menu */
+.nav {
+    background-color: #121212;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Style for the main content area */
+.content {
+    padding: 20px;
+}
+
+/* Style for buttons, like the play button */
+.button {
+    background-color: #1db954;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #22e060;
+}
+
+/* Style for music player controls, e.g., play, pause, and skip */
+.player-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    padding: 10px;
+}
+
+/* Style for the footer */
+.footer {
+    background-color: #121212;
+    padding: 10px;
+    text-align: center;
+    color: #888888;
+}
+
+/* Example of Spotify-like fonts */
+h1, h2, h3 {
+    font-family: 'Helvetica Neue', sans-serif;
+}
